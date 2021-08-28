@@ -1,3 +1,7 @@
 .book-appointment {
-    
+    overflow-y:scroll ;;
+}
+
+p {
+    overflow: hidden;
 }

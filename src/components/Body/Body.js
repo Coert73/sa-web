@@ -3,10 +3,11 @@ import {
 	Switch,
 	Route
 } from "react-router-dom";
-import { BOOK_APPOINTMENT, LANDING } from "constants/routes";
+import { BOOK_APPOINTMENT, Confirm, LANDING } from "constants/routes";
 import BookAppointment from "views/BookAppointment/BookAppointment";
 import Landing from "views/Landing/Landing";
 import "./Body.css";
+import Confirmation from "views/Confirmation";
 
 export default class Body extends Component {
 
@@ -19,6 +20,9 @@ export default class Body extends Component {
 					</Route>
 					<Route path={LANDING}>
 						<Landing />
+					</Route>
+					<Route path={Confirm}>
+						<Confirmation />
 					</Route>
 				</Switch>
 			</div>
