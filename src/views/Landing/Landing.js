@@ -16,6 +16,7 @@ class Landing extends Component {
 	handleBookAppointmentClick() {
 		this.props.history.push(BOOK_APPOINTMENT);
 	}
+	
 
 	render() {
 		return (
